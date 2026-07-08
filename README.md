@@ -24,18 +24,18 @@ Not tutorials. Not clones. Things that actually ship.
 
 ---
 
-## Stats
+## By The Numbers
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NoahDeployed&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=B8986A&icon_color=B8986A&text_color=ffffff&count_private=true" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NoahDeployed&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=B8986A&text_color=ffffff" height="165" />
+![](https://img.shields.io/badge/AI%20Tokens%20Burned-22.3M-B8986A?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Revenue%20Last%203%20Weeks-%244%2C000-B8986A?style=for-the-badge&labelColor=0d1117)
 
-</div>
+![](https://img.shields.io/badge/Claude%20Sessions-83-B8986A?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Instagram-570%20Followers-B8986A?style=for-the-badge&labelColor=0d1117)
 
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=NoahDeployed&theme=dark&hide_border=true&background=0d1117&ring=B8986A&fire=B8986A&currStreakLabel=B8986A" />
+![](https://img.shields.io/badge/Favorite%20Model-Claude%20Sonnet%204.6-B8986A?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Longest%20Session-12d%2018h%2033m-B8986A?style=for-the-badge&labelColor=0d1117)
 
 </div>
 
