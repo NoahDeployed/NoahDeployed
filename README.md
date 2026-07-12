@@ -28,8 +28,7 @@ Not tutorials. Not clones. Things that actually ship.
 
 <div align="center">
 
-![](https://img.shields.io/badge/AI%20Tokens%20Burned-22.3M-B8986A?style=for-the-badge&labelColor=0d1117)
-![](https://img.shields.io/badge/Revenue%20Last%203%20Weeks-%244%2C000-B8986A?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/AI%20Tokens%20(Last%202%20Days)-25M-B8986A?style=for-the-badge&labelColor=0d1117)
 
 ![](https://img.shields.io/badge/Claude%20Sessions-83-B8986A?style=for-the-badge&labelColor=0d1117)
 ![](https://img.shields.io/badge/Instagram-570%20Followers-B8986A?style=for-the-badge&labelColor=0d1117)
@@ -90,6 +89,22 @@ One config object = one full client website. Sold to real businesses across BC.
 - Trade-aware AI chatbot with price estimates, booking flow, and emergency handling
 - Dynamic trade switcher: plumber, electrician, landscaper, HVAC, roofer, painter
 - One CSS variable cascades the entire site per trade brand color
+
+---
+
+### Veylo Autonomous Agent OS
+> 6 AI agents running in parallel, 24/7, fully unmanned. Python · Claude API · Twilio · SMTP · PyQt5
+
+The part of the Veylo app most people wouldn't believe. While I sleep, 6 agents run the business.
+
+| Agent | Role |
+|---|---|
+| **VEGA** | Outbound email agent. Loops through 1,700+ leads, generates personalized cold emails via Claude API, sends via SMTP. Random 3–7 min delay to avoid spam filters. Never emails the same lead twice. |
+| **Reply Monitor** | Inbound agent. Watches the inbox for interested replies, auto-sends Calendly booking link the moment a lead responds. Zero manual follow-up needed. |
+| **Diagnostic Engine** | Self-healing agent. Classifies SMTP errors, rate limits, spam filter blocks, and crashes — auto-recovers without intervention. |
+| **Office Stream** | Live ops agent. Atomic writer that keeps `live_office.json` updated in real time so the 3D operations room always reflects current agent activity. |
+| **Orchestrator** | Schedule-aware master agent. Runs outreach 08:00–18:00, switches to analysis and optimization 18:00–08:00. Coordinates all other agents. |
+| **AI Voice Caller** | Outbound calling agent. Calls raw leads, qualifies them with a conversational AI (free estimate interest, budget, timeline), passes warm ones directly to clients. |
 
 ---
 
