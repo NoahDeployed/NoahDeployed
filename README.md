@@ -2,7 +2,7 @@
 
 # Noah · @NoahDeployed
 
-**Solo founder. Full-stack builder. 15 years old from BC, Canada.**
+**Solo founder. Full-stack builder. from BC, Canada.**
 
 I build production software — real clients, real revenue, real deadlines.
 Not tutorials. Not clones. Things that actually ship.
