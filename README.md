@@ -44,7 +44,7 @@ I am the technical co-founder of a three-person software company selling to acco
 
 The work I am proudest of is the unglamorous kind. Row-level security on every table. An audit log that a database trigger refuses to let anyone edit. A build that cannot be called done while a single check is red. Software that handles other people's tax records has to be boring in exactly the right places, and making it boring is the hard part.
 
-Started shipping at 15. Still 15.
+Started building at 15
 
 ---
 
