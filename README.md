@@ -31,6 +31,7 @@ Not tutorials. Not clones. Things with customers, deadlines and a pager.
 ![](https://img.shields.io/badge/Database%20migrations-144-7C66F0?style=for-the-badge&labelColor=0d1117)
 ![](https://img.shields.io/badge/TypeScript%20in%20one%20app-90%2C000%20lines-7C66F0?style=for-the-badge&labelColor=0d1117)
 
+![](https://img.shields.io/badge/Tokens%20used%2C%20last%2028%20days-28%20billion-7C66F0?style=for-the-badge&labelColor=0d1117)
 ![](https://img.shields.io/badge/Claude%20Code%20sessions-739-7C66F0?style=for-the-badge&labelColor=0d1117)
 ![](https://img.shields.io/badge/Python%20business%20OS-36%2C000%20lines-7C66F0?style=for-the-badge&labelColor=0d1117)
 
