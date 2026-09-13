@@ -2,13 +2,10 @@
 
 # Noah · @NoahDeployed
 
-**Solo founder. Full-stack builder. from BC, Canada.**
+**Founder. CTO. Full-stack builder. BC, Canada.**
 
-I build production software — real clients, real revenue, real deadlines.
-Not tutorials. Not clones. Things that actually ship.
-
-[![Website](https://img.shields.io/badge/veyloai.ca-000000?style=flat&logo=safari&logoColor=white)](https://veyloai.ca)
-[![Email](https://img.shields.io/badge/noah@veyloai.ca-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:noah@veyloai.ca)
+I build production software that real businesses run their day on.
+Not tutorials. Not clones. Things with customers, deadlines and a pager.
 
 </div>
 
@@ -18,107 +15,88 @@ Not tutorials. Not clones. Things that actually ship.
 
 <div align="center">
 
-![Python](https://skillicons.dev/icons?i=python,ts,nextjs,react,tailwind,supabase,postgres,vercel,git,github,figma,vscode)
+![Stack](https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,supabase,postgres,vercel,python,cs,dotnet,threejs,git,github,figma)
 
 </div>
 
 ---
 
-## By The Numbers
+## By the numbers
 
 <div align="center">
 
-![](https://img.shields.io/badge/AI%20Tokens%20(Last%202%20Days)-25M-B8986A?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Commits%20on%20the%20current%20build-1%2C158%20in%2029%20days-7C66F0?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Automated%20checks%20in%20that%20repo-116-7C66F0?style=for-the-badge&labelColor=0d1117)
 
-![](https://img.shields.io/badge/Claude%20Sessions-83-B8986A?style=for-the-badge&labelColor=0d1117)
-![](https://img.shields.io/badge/Instagram-570%20Followers-B8986A?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Database%20migrations-144-7C66F0?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/TypeScript%20in%20one%20app-90%2C000%20lines-7C66F0?style=for-the-badge&labelColor=0d1117)
 
-![](https://img.shields.io/badge/Favorite%20Model-Claude%20Sonnet%204.6-B8986A?style=for-the-badge&labelColor=0d1117)
-![](https://img.shields.io/badge/Longest%20Session-12d%2018h%2033m-B8986A?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Claude%20Code%20sessions-739-7C66F0?style=for-the-badge&labelColor=0d1117)
+![](https://img.shields.io/badge/Python%20business%20OS-36%2C000%20lines-7C66F0?style=for-the-badge&labelColor=0d1117)
 
 </div>
 
 ---
 
-## What I Build
+## What I build
 
-I run **Veylo AI** — a one-person agency that builds AI-powered web products for businesses across BC. I handle everything: architecture, design, backend, deployment, client communication, and billing.
+I am the technical co-founder of a three-person software company selling to accounting firms, and before that I ran a one-person agency that shipped web products to businesses across BC. I handle the whole thing: architecture, database, security, the desktop side, design, deployment, billing and the customers.
 
-At 15 I've shipped:
-- A full professional development platform used by ASL interpreters across North America
-- A production client site engine generating leads for trades businesses
-- A custom desktop CRM with AI email drafting, live calling, and Stripe integration
-- Dozens of client-facing demos and landing pages
+The work I am proudest of is the unglamorous kind. Row-level security on every table. An audit log that a database trigger refuses to let anyone edit. A build that cannot be called done while a single check is red. Software that handles other people's tax records has to be boring in exactly the right places, and making it boring is the hard part.
+
+Started shipping at 15. Still 15.
 
 ---
 
-## Featured Projects
+## Featured work
 
-### The Collective — ASL Interpreter Platform
-> Full SaaS platform for professional development. Next.js 16 · TypeScript · Supabase · Stripe · Cloudflare R2
+### Tax document reader for accounting firms
+> Next.js 16 · TypeScript · Supabase · Postgres · Stripe · Claude API · C# .NET 8
 
-The most complex thing I've built. Enterprise-level security, built from scratch by one person.
+The current build, and the most serious thing I have made. A CPA drops in whatever a client handed them, a scanned shoebox of twenty to seventy pages, and it comes back as one card per document with every figure read, placed and linked to the exact spot on the page it came from. The preparer checks the work instead of typing it.
 
-- Interpreters record video responses to signing prompts and receive timestamped peer feedback
-- Certification verification with secure government ID uploads — private storage, 5-min signed URLs, paths never reach the browser
-- Stripe-gated membership tiers (Core $10/mo · Pro $15/mo) with Cloudflare R2 private video hosting
-- 14-table Supabase schema with Row Level Security on every single table
-- Rate limiting, MIME validation, PKCE auth, server-side session management throughout
+- One PDF in, every document inside it split out and read on its own; blank pages, cover sheets and backs of slips recognised and skipped for free
+- Every value carries the rectangle it was read from, so clicking a number shows you the paper. Anything the reader was unsure of is flagged and **blocks approval** in three separate places
+- Duplicate receipts caught before they double a deduction, and a suspected copy cannot be approved until a person says which one is real
+- A Windows desktop agent, 10,000 lines of C#, that lands the finished figures in the firm's own tax software through that software's own import surface. Exact-title verification before the first keystroke, focus loss aborts, every job runs at most once, a persistent stop switch, and a full trail
+- 144 migrations, 116 automated checks, CI that scans every push for secrets, PII encrypted at rest with the key kept away from the ciphertext
+- A security alarm that wires decoy credentials to a webhook: the moment one is touched, the platform records the hit, snapshots who was signed in, pings the team channel, texts the founders, and locks the doors if it was client data
 
----
+### The Collective, a professional development platform for ASL interpreters
+> Next.js · TypeScript · Supabase · Stripe · Cloudflare R2
 
-### Veylo AI Desktop App
-> Custom CRM and business OS. Python · PyQt5 · Claude API · Stripe API · IMAP/SMTP
+Built with a partner for a client in Texas. Interpreters record themselves signing to a prompt and get timestamped feedback from peers and mentors. Certification verification with government ID uploads into private storage behind five-minute signed URLs; paths never reach the browser. Stripe-gated membership tiers, private video hosting on R2, a 14-table schema with row-level security on every table, rate limiting, MIME validation, PKCE auth and server-side sessions throughout.
 
-Built to replace every SaaS tool I was paying for. 25,000+ lines of Python.
+### A desktop business OS, 36,000 lines of Python
+> Python · PyQt5 · Claude API · Stripe API · IMAP/SMTP · Twilio
 
-- IMAP email inbox with AI reply drafting (Claude API), one-click forward, auto-forward background daemon
-- Bulk cold outreach engine with deliverability tracking and reply detection
-- Live Stripe revenue dashboard pulling real MRR and client billing
-- AI-powered calling system with drill-down analytics
-- Life and business tracker with ECharts visualizations and daily KPI scoring
+Built to replace every SaaS tool I was paying for, and it did. An IMAP inbox with AI reply drafting, a bulk outreach engine with deliverability tracking and reply detection, a live Stripe revenue dashboard, an AI calling system with drill-down analytics, and a daily KPI tracker. Ships as a single signed Windows executable.
 
----
+### Six agents that run a business overnight
+> Python · Claude API · Twilio · SMTP
 
-### Trade Landing Engine v4
-> Production client site system. Vanilla HTML/CSS/JS · Zero build step
+The part of that desktop app most people do not believe until they watch the log. An outbound email agent working through 1,700 leads with personalised copy and a random delay so it never looks like a machine. A reply monitor that sends a booking link the moment someone answers. A diagnostic agent that classifies SMTP errors, rate limits and spam blocks and recovers on its own. An orchestrator that runs outreach in office hours and switches to analysis at night. An AI voice caller that qualifies raw leads and hands the warm ones to a human. It ran unattended while I slept.
 
-One config object = one full client website. Sold to real businesses across BC.
+### A client site engine for trades businesses
+> HTML · CSS · JavaScript · no build step
 
-- Multi-step lead capture form (service → urgency → contact → confirmation with ref number)
-- Trade-aware AI chatbot with price estimates, booking flow, and emergency handling
-- Dynamic trade switcher: plumber, electrician, landscaper, HVAC, roofer, painter
-- One CSS variable cascades the entire site per trade brand color
+One configuration object is one complete website. Multi-step lead capture, a trade-aware chatbot with price estimates and an emergency path, and a single CSS variable that recolours the whole site per trade. Sold to real plumbers, electricians and roofers.
 
----
+### A cinematic 3D studio site
+> Three.js · GSAP · Lenis
 
-### Veylo Autonomous Agent OS
-> 6 AI agents running in parallel, 24/7, fully unmanned. Python · Claude API · Twilio · SMTP · PyQt5
-
-The part of the Veylo app most people wouldn't believe. While I sleep, 6 agents run the business.
-
-| Agent | Role |
-|---|---|
-| **VEGA** | Outbound email agent. Loops through 1,700+ leads, generates personalized cold emails via Claude API, sends via SMTP. Random 3–7 min delay to avoid spam filters. Never emails the same lead twice. |
-| **Reply Monitor** | Inbound agent. Watches the inbox for interested replies, auto-sends Calendly booking link the moment a lead responds. Zero manual follow-up needed. |
-| **Diagnostic Engine** | Self-healing agent. Classifies SMTP errors, rate limits, spam filter blocks, and crashes — auto-recovers without intervention. |
-| **Office Stream** | Live ops agent. Atomic writer that keeps `live_office.json` updated in real time so the 3D operations room always reflects current agent activity. |
-| **Orchestrator** | Schedule-aware master agent. Runs outreach 08:00–18:00, switches to analysis and optimization 18:00–08:00. Coordinates all other agents. |
-| **AI Voice Caller** | Outbound calling agent. Calls raw leads, qualifies them with a conversational AI (free estimate interest, budget, timeline), passes warm ones directly to clients. |
+Full Three.js hero with PBR materials, a real key-and-rim lighting rig, floating animation and a contact shadow, with a scroll-driven camera orbit. Built with the same partner, to sell the two of us as one team.
 
 ---
 
-### Noah × Amine — Dev Partnership Site
-> Cinematic 3D portfolio. Three.js · GSAP · Lenis
+## How I work
 
-Full Three.js hero with PBR materials, real cinema lighting rig, floating animation, contact shadow plane. Asymmetric layout with text hard-left and 3D object filling the right viewport.
+Two AI coding agents in one checkout, all day, with the guardrails to make that safe: a commit cannot land while a check is red, a stop hook that refuses to let an agent finish on a broken tree, and a repository that documents every bug that ever passed review with the mechanism that let it through. The agents write a lot of the code. Deciding what is wrong with it is the job.
 
 ---
 
 <div align="center">
 
-**Currently:** Shipping The Collective to beta · Scaling Veylo to 10 clients
-
-*Open to serious projects. Not internships.*
+**Currently:** taking a tax product from ten beta firms to five hundred, and hiring the first engineer.
 
 </div>
