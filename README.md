@@ -4,8 +4,7 @@
 
 **Founder. CTO. Full-stack builder. BC, Canada.**
 
-I build production software that real businesses run their day on.
-Not tutorials. Not clones. Things with customers, deadlines and a pager.
+I build production software
 
 </div>
 
